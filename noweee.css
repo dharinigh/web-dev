@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#sectionvid {
+    background-image: linear-gradient(270deg, #140d0d, #1e293b 70%);
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw !important;
+    font-family: "roboto";
+    color: white;
+
+}
+
+.cont {
+    width: 100%;
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(22, 40, 69, .13) 28%, #1e293b 75%);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+    background-size: cover;
+    z-index: 0;
+
+}
+
+.video-container {
+    position: absolute;
+}
+
+.ri {
+    position: relative;
+    left: 100px;
+    background-color: #415069 !important;
+}
+
+.le {
+    position: relative;
+    right: 100px;
+    background-color: #415069 !important;
+}
+
+.ri:hover {
+    background-color: #415069 !important;
+}
+
+.le:hover {
+    background-color: #415069 !important;
+}
+
+.rounded-circle {
+    height: 45px !important;
+    border-radius: 55% !important;
+    width: 30px !important;
+}
+
+.im {
+    height: 40px !important;
+}
+
+.an {
+    height: 30px;
+    width: 70px;
+}
+
+.pad {
+    padding: 5px;
+}
+
+#sectionvid span {
+    color: #a3e635;
+}
+
+#sectionvid .modal-video .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#sectionvid .modal-content {
+    border: none;
+}
+
+#sectionvid .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+#sectionvid .padd {
+    padding: 0px !important;
+}
+
+#sectionvid .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#sectiont .modal-video .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#sectiont .modal-content {
+    border: none;
+}
+
+#sectiont .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+#sectiont .padd {
+    padding: 0px !important;
+}
+
+.vec {
+    position: relative;
+    right: 55px;
+    color: #a3e635;
+}
+
+#lng .container-vi {
+    color: #e5e5e5;
+    font-size: 33px;
+    text-transform: uppercase;
+    height: 100vh;
+    display: flex;
+    margin-top: 140px;
+
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+#shrt .container-vi {
+    color: #e5e5e5;
+    font-size: 24px;
+    text-transform: uppercase;
+    height: 100vh;
+    display: flex;
+    margin-top: 140px;
+
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+.image-8128822046 {
+
+    height: 13px;
+    position: relative;
+    top: -24px;
+    left: 69px;
+}
+
+.lottie-animation-2 {
+    position: absolute;
+    top: -20%;
+    bottom: auto;
+    left: 55%;
+    right: 0%;
+}
+
+#lng .animati {
+    height: 142px;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+#shrt .animati {
+    height: 142px;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+#lng .animati>div>div {
+    position: relative;
+    padding: 0.25rem 0.75rem;
+    height: 12.81rem;
+    margin-bottom: 35px;
+    display: inline-block;
+
+}
+
+#shrt .animati>div>div {
+    position: relative;
+    padding: 0.25rem 0.75rem;
+    height: 12.81rem;
+    margin-bottom: 30px;
+    display: inline-block;
+
+}
+
+#lng .animati div:first-child {
+    animation: text-animation 16s cubic-bezier(1, 0.6, 0, 1) 3s infinite;
+}
+
+#shrt .animati div:first-child {
+    animation: text-animatio 16s cubic-bezier(1, 0.6, 0, 1) 3s infinite;
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -80px;
+
+    }
+
+    35% {
+        margin-top: -178px;
+
+    }
+
+    60% {
+        margin-top: -314px;
+    }
+
+    80% {
+        margin-top: -450px;
+    }
+
+    100% {
+        margin-top: -595px;
+    }
+
+}
+
+@keyframes text-animatio {
+    0% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -75px;
+
+    }
+
+    35% {
+        margin-top: -240px;
+
+    }
+
+    60% {
+        margin-top: -400px;
+    }
+
+    80% {
+        margin-top: -550px;
+    }
+
+    100% {
+        margin-top: -720px;
+    }
+
+}
+
+
+.container-vi {
+    position: absolute;
+
+}
+
+.all {
+    background-color: #0f172a;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    padding: 20px;
+    height: 70vh;
+}
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 35s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+#marq img {
+    height: 50px;
+}
+
+#marq .hr {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+#marq .hd {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#vbut .active {
+    background-color: white !important;
+    color: black !important;
+}
+
+.div-block-183198052143916 {
+    background-color: #60a5fa;
+    border-radius: 19px;
+    width: 93px;
+    height: 32px;
+    position: absolute;
+    top: 31%;
+    bottom: auto;
+    left: 5%;
+    right: 0%;
+}
+
+.text-block-9412881948 {
+    color: #fff;
+    margin: 5px 10px 8px 16px;
+}
+
+.lottie-animation-2 {
+    position: absolute;
+    top: -20%;
+    bottom: auto;
+    left: 55%;
+    right: 0%;
+}
+
+.image-8128822046 {
+    height: 13px;
+    position: relative;
+    top: -34px;
+    left: 69px;
+}
+
+#togcaro {
+    background-image: url("https://assets-global.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff44362d25f8d_Frame%201000002908.png");
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    width: 100vw;
+
+}
+
+#togbut button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+#togbut button {
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    border-radius: 50px !important;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-width: 1px;
+    background-color: transparent;
+
+}
+
+.ba {
+    background-color: #415069;
+    text-align: left;
+    border-radius: 20px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.vec {
+    position: relative;
+    right: 50px;
+}
+
+.li {
+    font-size: 12px;
+    color: white;
+}
+
+.pp {
+    font-size: 20px;
+    color: white;
+}
+
+.pa {
+    font-weight: bold;
+    font-size: 16px;
+    color: #d1d1d1;
+}
+
+
+.tog {
+    background-color: #334155;
+    background-size: cover;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.va {
+    color: #e2e8f0;
+    font-size: 12px;
+}
+
+.pic {
+    height: 40px;
+}
+
+.sp {
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    color: #e2e8f0;
+    margin-bottom: 20px
+}
+
+.tli {
+    height: 30px !important;
+    width: 10px !important;
+    border-radius: 100% !important;
+}
+
+.toca {
+    background-color: #475569;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.indi {
+    position: relative;
+    bottom: 40px;
+    padding-left: 70px;
+    padding-top: 50px;
+
+}
+
+.carousel-indicators {
+    margin-top: 10px !important;
+}
+
+#toogpan3 button {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100% !important;
+    background-color: white !important;
+    border-width: 0px;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+}
+
+#toogpan2 button {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100% !important;
+    background-color: white !important;
+    border-width: 0px;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+}
+
+#toogpan button {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100% !important;
+    background-color: white !important;
+    border-width: 0px;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.card-set {
+    display: none;
+    margin-top: 50px;
+    background-color: transparent;
+}
+
+#revi .carousel-containe {
+    overflow: hidden;
+    width: 100vw;
+    /* Width of carousel container */
+    margin: 0 auto;
+    position: relative;
+}
+
+#revi .carouse {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+#revi .card {
+    flex: 0 0 400px;
+    /* Width of each card */
+    height: 210px !important;
+    border-radius: 6px;
+    background-color: #1e293b;
+    padding: 10px;
+    margin: 10px;
+}
+
+#revi .cardd {
+    flex: 0 0 400px;
+    /* Width of each card */
+    height: 200px !important;
+    border-radius: 6px;
+    background-color: #1e293b;
+    padding: 10px;
+    margin: 10px;
+}
+
+#revi {
+    background-color: #0f172a;
+    color: white;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+#emo {
+    border-style: solid;
+    border-radius: 33px;
+    background-color: rgba(113, 63, 18, .19);
+    border-color: #713f12;
+    font-size: 20px;
+    width: 380px;
+}
+
+#revi a:hover {
+    text-decoration: none;
+    color: #60a5fa;
+}
+
+#revi a {
+    color: #60a5fa;
+}
+
+#revi span {
+    font-size: 14px;
+
+}
+
+@media (max-width: 768px) {
+    .carouse {
+        flex-wrap: nowrap;
+        /* Disable wrapping */
+    }
+}
+
+#revi .carousel-indicator {
+    position: relative !important;
+    bottom: -95px !important;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 70px;
+    height: 16px;
+}
+
+/* Style for the carousel indicators */
+#revi .carousel-indicators {
+    bottom: -40px;
+    /* Adjust the position as needed */
+}
+
+#revi .carousel-indicators li {
+    background-color: #fff;
+    /* Color of the dots */
+    border-radius: 50%;
+    /* Make the dots circular */
+    border: 1px solid #000;
+    /* Border color of the dots */
+    width: 10px;
+    /* Diameter of the dots */
+    height: 10px;
+    margin-right: 5px;
+    /* Spacing between the dots */
+}
+
+#revi .carousel-indicators .active {
+    background-color: white;
+    /* Color of the active dot */
+}
+
+/* Positioning for the carousel controls */
+#rex .carousel-control-prev,
+#rex .carousel-control-next {
+    position: relative;
+    top: 29px;
+    /* Adjust vertical position as needed */
+}
+
+#rex .carousel-control-prev {
+    left: -90px;
+    /* Adjust horizontal position for the previous button */
+}
+
+#rex .carousel-control-next {
+    right: -90px;
+    /* Adjust horizontal position for the next button */
+}
+
+
+#revi button {
+    width: 5px !important;
+    height: 8px !important;
+    border-radius: 100% !important;
+    border-width: 0px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 135px;
+    right: 20px;
+}
+
+.dot-container {
+    text-align: center;
+
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #555;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #bbb;
+}
+
+.student-feeback-right-side-gradient-container-2 {
+    z-index: 1;
+    background-image: linear-gradient(270deg, #0f172a, rgba(0, 0, 0, 0));
+    width: 242px;
+    height: 471px;
+    margin-top: -103px;
+    display: block;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: -3px;
+}
+
+.student-feeback-left-side-gradient-container-2 {
+    z-index: 1;
+    background-image: linear-gradient(to right, #0f172a, rgba(0, 0, 0, 0));
+    width: 242px;
+    height: 471px;
+    margin-top: -103px;
+    display: block;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+}
+
+#claim p {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.cla {
+    color: white;
+    background-image: url("https://assets-global.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4e843d25fd4_NxtWave's%20Empowering%20Podcast%20Series%20%20to%20Shape%20your%20Dream%20Career.%20(1).png");
+    background-size: cover !important;
+    padding: 100px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    padding-left: 50px;
+}
+
+#conta .co {
+    background-color: rgb(51, 65, 85);
+    border-color: rgb(51, 65, 85);
+    color: white;
+    font-family: Inter;
+}
+
+#conta {
+    background-color: #0f172a;
+    background-size: cover;
+
+    padding: 20px;
+
+}
+
+.error-message {
+    color: red;
+}
+
+#conta h1 {
+    color: white;
+}
+
+.invalid-feedback {
+    border-color: red !important;
+    color: red !important;
+}
+
+#conta button {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+.cos {
+
+    background-image: url("https://assets-global.website-files.com/64362e90abbff481a6d25ce8/645345c688956b29615b9af8_Background%20String%20(1).png");
+    background-size: cover;
+    height: 20vh;
+    background-repeat: no-repeat;
+    width: 100vw;
+    padding-bottom: 30px;
+    padding: 20px;
+}
+
+.cos2 {
+    background-image: url("https://assets-global.website-files.com/64362e90abbff481a6d25ce8/645345c7c2106e1bd1c65a6c_Background%20String.png");
+    background-size: cover;
+    height: 20vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 30px;
+    padding: 20px;
+}
+
+.per {
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.peri {
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#foot {
+    color: #d4d5d6 !important;
+    background-color: #0f172a;
+    font-size: 16px;
+    background-size: cover;
+    padding: 50px;
+}
+
+#foot h5 {
+    font-weight: bold;
+    color: #91a1b5;
+}
+
+#foot p:hover {
+    color: white !important;
+}
+
+#foot a {
+    text-decoration: none !important;
+}
+
+#foot .mar {
+    margin-bottom: 108px;
+}
+
+#foot img {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#foot hr {
+    background-color: #d4d5d6;
+}
+
+#foot #mai:hover {
+    color: #d4d5d6 !important;
+}
+
+#foot #ad:hover {
+    color: #d4d5d6 !important;
+}
